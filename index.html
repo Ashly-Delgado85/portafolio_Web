@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashly Morales — DBA en Formación</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════════════════ NAVBAR ══════════════════════════ -->
+<nav>
+  <a href="#inicio" class="nav-brand">Ashly <span>Morales</span></a>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#perfil">Perfil</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a href="#" class="btn-cv">⬇ Descargar CV</a>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#inicio"      onclick="closeMobile()">Inicio</a>
+  <a href="#perfil"      onclick="closeMobile()">Perfil</a>
+  <a href="#habilidades" onclick="closeMobile()">Habilidades</a>
+  <a href="#proyectos"   onclick="closeMobile()">Proyectos</a>
+  <a href="#contacto"    onclick="closeMobile()">Contacto</a>
+  <a href="#"            onclick="closeMobile()">⬇ Descargar CV</a>
+</div>
+
+<!-- ══════════════════════════ HERO ══════════════════════════ -->
+<section id="inicio">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">DBA · En formación activa</div>
+      <h1 class="hero-name">Ashly<br><span>Morales</span></h1>
+      <p class="hero-title">Estudiante de Ingeniería en Sistemas &nbsp;|&nbsp; DBA en Formación</p>
+      <p class="hero-desc">
+        Apasionada por el diseño, administración y optimización de bases de datos.
+        Con dominio en SQL, PostgreSQL y MySQL, experiencia práctica en backup &amp; recovery,
+        monitoreo de rendimiento, seguridad de datos y fundamentos de cloud computing.
+      </p>
+      <div class="hero-btns">
+        <a href="#proyectos" class="btn-primary">Ver proyectos →</a>
+        <a href="#contacto"  class="btn-outline">Contactar</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-avatar">AM</div>
+        <div class="hero-card-name">
+          <strong>Ashly Morales</strong>
+          <span>Ing. en Sistemas · DBA Track</span>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-item">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Proyectos DB</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">6+</span>
+            <span class="stat-label">Tecnologías</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">3</span>
+            <span class="stat-label">DBMS dominados</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Cloud platforms</span>
+          </div>
+        </div>
+        <div class="tech-tags">
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">SQL Server</span>
+          <span class="tech-tag">Cloud</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PERFIL ══════════════════════════ -->
+<section id="perfil">
+  <div class="section-inner">
+    <span class="section-label">// 01. sobre mí</span>
+    <h2 class="section-title">Perfil Profesional</h2>
+    <div class="section-divider"></div>
+
+    <div class="perfil-grid">
+      <div class="perfil-text">
+        <p>
+          Soy estudiante de Ingeniería en Sistemas con orientación hacia la
+          <strong>Administración de Bases de Datos</strong>. Mi objetivo es desarrollar
+          una carrera sólida como DBA, contribuyendo a la fiabilidad, rendimiento y
+          seguridad de los sistemas de información de las organizaciones.
+        </p>
+        <p>
+          Me especializo en el diseño e implementación de bases de datos relacionales,
+          optimización de consultas SQL, estrategias de backup &amp; recovery y monitoreo
+          proactivo del rendimiento de servidores de bases de datos.
+        </p>
+        <p>
+          Actualmente fortalezco mis competencias en entornos cloud (AWS RDS, Azure DB),
+          scripting con Python/Bash para automatización de tareas DBA y mejores prácticas
+          de seguridad en bases de datos corporativas.
+        </p>
+      </div>
+
+      <div class="perfil-highlights">
+        <div class="highlight-item">
+          <span class="highlight-icon">🎯</span>
+          <div>
+            <strong>Objetivo profesional</strong>
+            <span>Incorporarme como DBA Junior para aplicar y expandir mis conocimientos en entornos productivos reales.</span>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">🛡️</span>
+          <div>
+            <strong>Seguridad de datos</strong>
+            <span>Gestión de roles, permisos, cifrado y cumplimiento de políticas de protección de datos.</span>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">☁️</span>
+          <div>
+            <strong>Cloud databases</strong>
+            <span>Experiencia básica con AWS RDS y Azure Database, migraciones y configuración inicial.</span>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">📈</span>
+          <div>
+            <strong>Orientación a resultados</strong>
+            <span>Enfoque en optimización, disponibilidad y continuidad del servicio de datos.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ HABILIDADES ══════════════════════════ -->
+<section id="habilidades">
+  <div class="section-inner">
+    <span class="section-label">// 02. competencias</span>
+    <h2 class="section-title">Habilidades</h2>
+    <div class="section-divider"></div>
+
+    <div class="skills-grid">
+      <!-- Hard Skills -->
+      <div>
+        <div class="skills-col-title">💻 Hard Skills</div>
+        <div class="skill-cards">
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">SQL avanzado</span>
+              <span class="skill-level">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-level">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">MySQL / MariaDB</span>
+              <span class="skill-level">82%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:82%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">SQL Server (T-SQL)</span>
+              <span class="skill-level">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:75%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Backup &amp; Recovery</span>
+              <span class="skill-level">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Monitoreo y tuning</span>
+              <span class="skill-level">72%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:72%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Cloud DB (AWS / Azure)</span>
+              <span class="skill-level">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:60%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Scripting (Python / Bash)</span>
+              <span class="skill-level">65%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width:65%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div>
+        <div class="skills-col-title">🤝 Soft Skills</div>
+        <div class="soft-tags">
+          <div class="soft-tag"><span>🧩</span> Resolución de problemas</div>
+          <div class="soft-tag"><span>💬</span> Comunicación efectiva</div>
+          <div class="soft-tag"><span>👥</span> Trabajo en equipo</div>
+          <div class="soft-tag"><span>⚡</span> Proactividad</div>
+          <div class="soft-tag"><span>📋</span> Organización</div>
+          <div class="soft-tag"><span>🎯</span> Atención al detalle</div>
+          <div class="soft-tag"><span>📚</span> Aprendizaje continuo</div>
+          <div class="soft-tag"><span>⏱️</span> Gestión del tiempo</div>
+          <div class="soft-tag"><span>🔍</span> Pensamiento analítico</div>
+          <div class="soft-tag"><span>🛠️</span> Adaptabilidad</div>
+        </div>
+
+        <div class="formacion-list">
+          <div class="skills-col-title">🎓 Formación</div>
+          <div class="highlight-item">
+            <span class="highlight-icon">🏛️</span>
+            <div>
+              <strong>Ing. en Sistemas de Información</strong>
+              <span>Universidad Nacional · 2021 – presente</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">📜</span>
+            <div>
+              <strong>Oracle DB Foundations</strong>
+              <span>Oracle Academy · 2023</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">☁️</span>
+            <div>
+              <strong>AWS Cloud Practitioner Essentials</strong>
+              <span>AWS Training · 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PROYECTOS ══════════════════════════ -->
+<section id="proyectos">
+  <div class="section-inner">
+    <span class="section-label">// 03. proyectos</span>
+    <h2 class="section-title">Proyectos Destacados</h2>
+    <div class="section-divider"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header" data-icon="🏥">
+          <div class="project-num">PROYECTO 01</div>
+          <div class="project-title">Sistema de Gestión Clínica — BD Relacional</div>
+        </div>
+        <div class="project-body">
+          <p class="project-desc">
+            Diseño e implementación de una base de datos relacional para gestión de
+            pacientes, citas y expedientes médicos. Incluye procedimientos almacenados,
+            triggers de auditoría y políticas de respaldo automatizado con cron.
+          </p>
+          <div class="project-techs">
+            <span class="project-tech">PostgreSQL</span>
+            <span class="project-tech">PL/pgSQL</span>
+            <span class="project-tech">pgAdmin</span>
+            <span class="project-tech">Bash</span>
+          </div>
+          <div class="project-btns">
+            <a href="#" class="btn-small btn-small-primary">Ver demo</a>
+            <a href="#" class="btn-small btn-small-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header" data-icon="🛒">
+          <div class="project-num">PROYECTO 02</div>
+          <div class="project-title">E-Commerce DB — Optimización de Consultas</div>
+        </div>
+        <div class="project-body">
+          <p class="project-desc">
+            Modelado y optimización de base de datos para plataforma e-commerce con
+            más de 100k registros. Implementación de índices, análisis de planes de
+            ejecución (EXPLAIN) y reducción del tiempo de consulta en un 60%.
+          </p>
+          <div class="project-techs">
+            <span class="project-tech">MySQL 8</span>
+            <span class="project-tech">Workbench</span>
+            <span class="project-tech">Python</span>
+            <span class="project-tech">EXPLAIN</span>
+          </div>
+          <div class="project-btns">
+            <a href="#" class="btn-small btn-small-primary">Ver demo</a>
+            <a href="#" class="btn-small btn-small-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header" data-icon="☁️">
+          <div class="project-num">PROYECTO 03</div>
+          <div class="project-title">Migración Local → AWS RDS</div>
+        </div>
+        <div class="project-body">
+          <p class="project-desc">
+            Planificación y ejecución de migración de base de datos MySQL local a
+            instancia AWS RDS. Configuración de snapshots automáticos, grupos de
+            seguridad, monitoreo con CloudWatch y pruebas de failover.
+          </p>
+          <div class="project-techs">
+            <span class="project-tech">AWS RDS</span>
+            <span class="project-tech">MySQL</span>
+            <span class="project-tech">CloudWatch</span>
+            <span class="project-tech">DMS</span>
+          </div>
+          <div class="project-btns">
+            <a href="#" class="btn-small btn-small-primary">Ver demo</a>
+            <a href="#" class="btn-small btn-small-outline">Informe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header" data-icon="📊">
+          <div class="project-num">PROYECTO 04</div>
+          <div class="project-title">Dashboard de Monitoreo DBA</div>
+        </div>
+        <div class="project-body">
+          <p class="project-desc">
+            Script en Python que consulta vistas de sistema en SQL Server y PostgreSQL
+            para monitorear conexiones activas, tamaño de tablas, bloqueos y alertas
+            de rendimiento. Reportes automáticos por email con Pandas.
+          </p>
+          <div class="project-techs">
+            <span class="project-tech">Python</span>
+            <span class="project-tech">SQL Server</span>
+            <span class="project-tech">Pandas</span>
+            <span class="project-tech">smtplib</span>
+          </div>
+          <div class="project-btns">
+            <a href="#" class="btn-small btn-small-primary">Ver demo</a>
+            <a href="#" class="btn-small btn-small-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ CONTACTO ══════════════════════════ -->
+<section id="contacto">
+  <div class="section-inner">
+    <span class="section-label" style="color:var(--mint)">// 04. contacto</span>
+    <h2 class="section-title">Hablemos</h2>
+    <div class="section-divider"></div>
+
+    <div class="contact-grid">
+      <div>
+        <p class="contact-info-desc">
+          Estoy abierta a oportunidades de prácticas profesionales, proyectos
+          colaborativos y posiciones de DBA Junior. ¡No dudes en escribirme!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:ashly.morales@email.com" class="contact-link">
+            <div class="contact-link-icon">✉️</div>
+            <div class="contact-link-info">
+              <strong>Correo electrónico</strong>
+              ashly.morales@email.com
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/ashlymorales" target="_blank" class="contact-link">
+            <div class="contact-link-icon">💼</div>
+            <div class="contact-link-info">
+              <strong>LinkedIn</strong>
+              linkedin.com/in/ashlymorales
+            </div>
+          </a>
+          <a href="https://github.com/ashlymorales-dba" target="_blank" class="contact-link">
+            <div class="contact-link-icon">🐙</div>
+            <div class="contact-link-info">
+              <strong>GitHub</strong>
+              github.com/ashlymorales-dba
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <div class="contact-link-icon">📍</div>
+            <div class="contact-link-info">
+              <strong>Ubicación</strong>
+              Costa Rica (disponible remoto)
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Enviar mensaje</h3>
+        <div class="form-group">
+          <label>NOMBRE</label>
+          <input type="text" placeholder="Tu nombre completo"/>
+        </div>
+        <div class="form-group">
+          <label>CORREO</label>
+          <input type="email" placeholder="tu@email.com"/>
+        </div>
+        <div class="form-group">
+          <label>ASUNTO</label>
+          <input type="text" placeholder="Oportunidad de prácticas / Colaboración"/>
+        </div>
+        <div class="form-group">
+          <label>MENSAJE</label>
+          <textarea placeholder="Cuéntame sobre tu propuesta..."></textarea>
+        </div>
+        <button class="btn-send">Enviar mensaje →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FOOTER ══════════════════════════ -->
+<footer>
+  <p>© 2025 <span>Ashly Morales</span> · Portafolio DBA · Diseñado con 💙 y mucho SQL</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
