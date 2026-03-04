@@ -405,3 +405,6 @@ Aunque la oferta #5 se llama “Space Data Administrator”, su enfoque es princ
 
 Diferenciador 1: Capacidad de analizar ofertas y distinguir perfiles similares en nombre pero distintos en funciones.
 Diferenciador 2: Enfoque profesional claro hacia DBA de bases de datos, evitando una propuesta de portafolio ambigua.
+
+Parte 2: Diseño y Prototipado (Obligatorio)
+link: https://www.figma.com/make/5RlX9sMUNgKz6np7H6E7Hn/Dise%C3%B1ar-portafolio-web-profesional?t=BTVVgzPAffkFGnln-1
